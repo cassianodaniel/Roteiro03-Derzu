@@ -21,12 +21,24 @@ void Conta::definirLimite(){
     this->limite = this->salarioMensal*2;
 }
 
+void Conta::setSalarioMensal(double SALARIOMENSAL){
+    this->salarioMensal = SALARIOMENSAL;
+}
+
 void Conta::depositar(double VALOR){
     this->saldo += VALOR;
 }
 
 void Conta::sacar(double VALOR){
     this->saldo -= VALOR;
+}
+
+double Conta::getLimite(){
+    return this->limite;
+}
+
+double Conta::getSaldo(){
+    return this->saldo;
 }
 
 Conta::~Conta()

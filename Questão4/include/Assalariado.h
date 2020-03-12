@@ -4,11 +4,12 @@
 
 class Assalariado : public Funcionario{
     public:
-        Assalariado();
+        Assalariado(int, string, double);
         virtual ~Assalariado();
         double calculaSalario();
+        void setSalario(double);
     protected:
-
+        double salario;
     private:
 };
 

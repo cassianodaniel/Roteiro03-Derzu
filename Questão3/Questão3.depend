@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1583992240 source:c:\users\edgelson\desktop\p2\derzu\roteiro03\questão3\questão3\main.cpp
+	<iostream>
+	"Conta.h"
+	"ContaCorrente.h"
+	"ContaEspecial.h"
+	"Poupanca.h"
+
+1583991644 source:c:\users\edgelson\desktop\p2\derzu\roteiro03\questão3\questão3\src\contacorrente.cpp
+	"ContaCorrente.h"
+	"stdio.h"
+	<iostream>
+
+1583991173 c:\users\edgelson\desktop\p2\derzu\roteiro03\questão3\questão3\include\contacorrente.h
+	"Conta.h"
+
+1583984942 source:c:\users\edgelson\desktop\p2\derzu\roteiro03\questão3\questão3\src\conta.cpp
+	"Conta.h"
+	"iostream"
+
+1583989922 c:\users\edgelson\desktop\p2\derzu\roteiro03\questão3\questão3\include\conta.h
+	"string"
+
+1583991576 source:c:\users\edgelson\desktop\p2\derzu\roteiro03\questão3\questão3\src\contaespecial.cpp
+	"ContaEspecial.h"
+	"iostream"
+
+1583990398 c:\users\edgelson\desktop\p2\derzu\roteiro03\questão3\questão3\include\contaespecial.h
+	"ContaCorrente.h"
+
+1583992147 source:c:\users\edgelson\desktop\p2\derzu\roteiro03\questão3\questão3\src\poupanca.cpp
+	"Poupanca.h"
+	"stdio.h"
+	<iostream>
+
+1583992142 c:\users\edgelson\desktop\p2\derzu\roteiro03\questão3\questão3\include\poupanca.h
+	"Conta.h"
+

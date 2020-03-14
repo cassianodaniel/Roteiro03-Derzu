@@ -3,7 +3,7 @@
 #include "Assalariado.h"
 #include "Horista.h"
 #include "Comissionado.h"
-
+//calcsal
 using namespace std;
 
 int main()

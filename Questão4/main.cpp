@@ -18,7 +18,6 @@ int main()
 
     cout << f1->getMatricula() << endl;
     cout << f1->getNome() << endl;
-    cout << f3->calculaSalario() << endl;
 
     cout << "Teste!" << endl;
     return 0;

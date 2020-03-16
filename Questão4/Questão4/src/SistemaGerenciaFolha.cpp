@@ -23,7 +23,7 @@ Funcionario* SistemaGerenciaFolha::getFuncionario(int I){
 
 double SistemaGerenciaFolha::consultaSalarioFuncionario(string NOME){
         try{
-        for(int j = 0; j < i; j++){
+        for(int j=0;j<i;j++){
             if(funcionarios[j]->getNome() == NOME){
                 return funcionarios[j]->calculaSalario();
             }
@@ -35,5 +35,17 @@ double SistemaGerenciaFolha::consultaSalarioFuncionario(string NOME){
 }
 
 double SistemaGerenciaFolha::calculaValorTotalFolha(){
-
+    double total = 0;
+    try{
+    for(int j=0;j<i;j++){
+        total += funcionarios[j]->calculaSalario();
+    }
+    if(total > orcamento){
+        throw new OrcamentoEstouradoException;
+    }if(total < orcamento){
+    return total;
+    }
+    }catch(OrcamentoEstouradoException objOrcExp){
+        objOrcExp = OrcamentoEstouradoException();
+    }
 }

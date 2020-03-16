@@ -5,9 +5,12 @@
 class Comissionado : public Funcionario
 {
     public:
-        Comissionado();
+        Comissionado(int,string,double,double,double);
         virtual ~Comissionado();
-
+        double vendasSemanais;
+        double percentualComissao;
+        double salarioPiso;
+        double calculaSalario();
     protected:
 
     private:

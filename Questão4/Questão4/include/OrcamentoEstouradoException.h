@@ -1,6 +1,5 @@
 #ifndef ORCAMENTOESTOURADOEXCEPTION_H
 #define ORCAMENTOESTOURADOEXCEPTION_H
-
 #include <exception>
 
 using namespace std;

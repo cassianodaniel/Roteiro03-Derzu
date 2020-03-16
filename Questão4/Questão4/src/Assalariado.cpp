@@ -1,15 +1,22 @@
 #include "Assalariado.h"
 
-Assalariado::Assalariado()
-{
-    //ctor
-}
-
 Assalariado::~Assalariado()
 {
     //dtor
 }
 
-double Assalariado::calculaSalario(){
+Assalariado::Assalariado(int MATRICULA, string NOME, double SALARIO)
+{
+    matricula = MATRICULA;
+    nome = NOME;
+    salario = SALARIO;
+}
 
+void Assalariado::setSalario(double SALARIO)
+{
+    salario = SALARIO;
+}
+
+double Assalariado::calculaSalario(){
+    return salario;
 }

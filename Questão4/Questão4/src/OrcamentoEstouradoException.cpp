@@ -1,11 +1,9 @@
 #include "OrcamentoEstouradoException.h"
-#include <exception>
-
-using namespace std;
+#include "stdio.h"
 
 OrcamentoEstouradoException::OrcamentoEstouradoException()
 {
-
+    printf("O orçamento estourou");
 }
 
 OrcamentoEstouradoException::~OrcamentoEstouradoException()
